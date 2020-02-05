@@ -13,4 +13,6 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  sorted_array = array.sort()
+  p sorted_array[0]
 end
